@@ -1,0 +1,129 @@
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__title h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.login__title span {
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.login__container {
+  margin-top: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn_redesocias button {
+  background: #ffff;
+  width: 18rem;
+  height: 35px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 0.75rem;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn_redesocias button:hover {
+  opacity: 0.9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn_redesocias img {
+    width: 15px;
+    margin-right: 0.5rem;
+}
+
+.login__container span {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  padding-right: 9.5rem;
+  color: #888;
+}
+
+.inputform {
+    margin-bottom: 1rem;
+}
+
+.inputform input {
+    width: 16.5rem;
+    height: 10px;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 0.75rem;
+}
+
+.inputform span {
+    color: #E45201;
+    display:flex;
+    justify-content:right;
+    padding: 0;
+}
+
+.btn_submit {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_submit button {
+    width: 18rem;
+  max-width: 20rem;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  background-color: #E45201;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn_submit button:nth-child(2) {
+    background: #ffff;
+    color: #E45201;
+}
+
+.btn_submit button:hover {
+  border-color: ;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
