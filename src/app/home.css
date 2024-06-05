@@ -75,10 +75,21 @@
     margin-right: 0.5rem;
 }
 
+.login__container hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    border-width: 1px;
+    width: 17rem;
+}
+
 .login__container_span {
   font-size: 0.75rem;
   margin-bottom: 1rem;
-  padding-right: 9.5rem;
+  padding-right: 4rem;
   color: #888;
 }
 
@@ -98,6 +109,13 @@
     color: #E45201;
     padding-left: 11rem;
     margin-bottom: 0.5rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.inputform_span:hover {
+    text-decoration: underline;
 }
 
 .btn_submit {
