@@ -1,36 +1,35 @@
+import Input from '@/app/components/Input'
+import Button from '@/app/components/Button'
+import FormLayout from './components/FormLayout'
+
 import './home.css'
+
 
 export default function Home() {
   return (
     <div className='container'>
-      <div className="login">
-        <div className="login__title">
-          <h1>Login 👋</h1>
-          <span>controle sua carteira cripto sem burocracias</span>
-        </div> 
-        <div className="login__container">
-          <form>
-            <div className='btn_redesocias'>
-              <button><img src='./images/google.png'></img>Entre com Google</button>
-              <button><img src='./images/facebook.png'></img>Entre com Facebook</button>
-            </div>
+      <FormLayout 
+        title="Login 👋" 
+        subtitle="controle sua carteira cripto sem burocracias">
+          <Button className="btn_redesocias">
+                <img src='./images/google.png'/>
+                Entre com Google
+          </Button>
+          <Button className='btn_redesocias'>
+                <img src='./images/facebook.png'/>
+                Entre com Facebook
+          </Button>
 
-            <span>ou entre com um email</span>
+          <span className='login__container_span'>ou entre com um email</span>
 
-            <div className='inputform'>
-              <input type="email" placeholder="Email" />
-              <input type="password" placeholder="Senha" />
-              <span>Esqueceu a senha?</span>
-            </div>
+          <Input className="inputform" type="email" placeholder="Email" />
+          <Input className="inputform" type="password" placeholder="Senha" />
 
+          <span className='inputform_span'>Esqueceu a senha?</span>
 
-            <div className='btn_submit'>
-              <button type="submit">Entrar</button>
-              <button type="submit">Não tenho cadastro</button>
-            </div>
-          </form>
-        </div>
-      </div>
+          <Button className='btn_submit' type="submit">Entrar</Button>
+          <Button className='btn_submit btn_submit_white' type="submit">Não tenho cadastro</Button>
+      </FormLayout>
     </div>
   );
 }

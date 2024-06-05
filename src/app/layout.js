@@ -1,3 +1,5 @@
+
+import Background from './components/Background';
 import './globals.css';
 
 export const metadata = {
@@ -10,10 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="container">
-          <div className="background-left">
-            <h1>O MUNDO CRIPTO</h1>
-            <span>ESPERA POR VOCÊ</span>
-          </div>
+          <Background />
           {children}
         </div>
       </body>
