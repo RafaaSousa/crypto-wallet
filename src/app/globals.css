@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  font-family: 'Arial', sans-serif, inter;
+  font-family: "Arial", sans-serif, inter;
   height: 100vh;
   overflow: hidden;
 }
@@ -10,25 +10,25 @@ body {
 .container {
   width: 100%;
   height: 100vh;
-  display: felx;
-  }
+  display: flex;
+}
 
 .background-left {
-  background-image: url('/images/bitcoin.png');
+  background-image: url("/images/bitcoin.png");
   background-size: cover;
   background-position: center;
-  width: 60%;
+  width: 100%;
   height: 100vh;
 }
 
 .background-left h1 {
   font-size: 32px;
   color: #ffff;
-  margin: 4rem 0 0.1rem 4rem;
+  padding: 4rem 0px 0 4rem;
+  margin: 0;
 }
 
 .background-left span {
   color: #ffff;
   margin-left: 4rem;
 }
-
