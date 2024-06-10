@@ -15,7 +15,7 @@ export default function FormLogin() {
     const router = useRouter()
 
   return (
-    <div className='login'>
+    <div>
       <FormLayout
         title={isSignIn ? "Cadastro 👋" : "Login 👋"}
         subtitle="controle sua carteira cripto sem burocracias"

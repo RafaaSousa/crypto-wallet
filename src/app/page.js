@@ -7,8 +7,7 @@ export default function Home() {
   
 
   return (
-    <div className='container'>
-      <Background />
+    <div>
       <FormLogin />
     </div>
   );

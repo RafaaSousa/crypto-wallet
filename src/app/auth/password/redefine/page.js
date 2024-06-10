@@ -13,8 +13,8 @@ export default function Redefine() {
   <div className="container">
     <FormLayout
       title="Redefina a sua senha"
-      subtitle="te enviamos um código por email, se necessário
-            cheque a caixa de spam"
+      subtitle="Te enviamos um código por email, se necessário
+            cheque a caixa de spam."
       >
       <Input
         className="inputform"
@@ -29,7 +29,7 @@ export default function Redefine() {
       <Input
         className="inputform"
         type="password"
-        placeholder="confirmar Nova Senha"
+        placeholder="Confirmar Nova Senha"
       />
 
       <Button 

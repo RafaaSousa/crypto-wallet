@@ -22,7 +22,7 @@ export default function ForgotPassword() {
 
           <Button 
             className="btn_submit"
-            type="submit"
+            type="button"
             onClick={() => router.push('/auth/password/redefine')}
           >
             enviar recuperação de senha
