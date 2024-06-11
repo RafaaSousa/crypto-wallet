@@ -1,5 +1,4 @@
 
-import Background from './components/Background';
 import './globals.css';
 
 export const metadata = {

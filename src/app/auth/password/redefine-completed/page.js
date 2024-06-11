@@ -1,11 +1,11 @@
 "use client"
 
-import { useRouter } from 'next/navigation';
-
 import Button from "@/app/components/Button";
-
-import "@/app/home.css"
 import Background from '@/app/components/Background';
+
+import "@/app/main.css"
+
+import { useRouter } from 'next/navigation';
 
 export default function RedefineCompleted() {
   const router = useRouter();

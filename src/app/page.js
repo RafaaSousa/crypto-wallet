@@ -1,11 +1,8 @@
-import Background from './components/Background'
 import FormLogin from './components/FormLogin'
 
-import './home.css'
+import './main.css'
 
-export default function Home() {
-  
-
+export default function Main() {
   return (
     <div>
       <FormLogin />

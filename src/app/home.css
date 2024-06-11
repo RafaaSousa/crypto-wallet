@@ -1,180 +1,103 @@
 .container {
-  flex: 1;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width:100%;
 }
 
-.background-left {
-  background-image: url("/images/bitcoin.png");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
+.aside {
+  background: #e45201;
+  width: 20%;
+  height: 100dvh;
+  border-right-style: inset;
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1rem;
 }
 
-.background-left h1 {
-  font-size: 32px;
-  color: #ffff;
-  padding: 4rem 0px 0 4rem;
+.aside h1 {
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside span {
+  color: #fff;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.aside ul {
+  padding: 0;
   margin: 0;
 }
 
-.background-left span {
-  color: #ffff;
-  margin-left: 4rem;
-}
-
-.login {
-    width: 50%;
-    height: 100vh;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.login h1 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.login__title {
-    padding-right: 3rem;
-    padding-top: 2rem;
-}
-
-.login__title h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  color: #333;
+.aside li {
+  list-style-type: none;
   display: flex;
-  justify-content: left;
-  align-items: left;
-}
-
-.login__title span {
-  color: #666;
-  font-size: 0.75rem;
-}
-
-.login__container {
-  margin-top: 1rem;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-}
-
-.login__container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.btn_redesocias {
-  background: #ffff;
-  width: 18rem;
-  height: 35px;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  font-weight: 600;
   font-size: 0.75rem;
-  font-weight: 400;
-  color: #000;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn_redesocias:hover {
-  opacity: 0.9;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.btn_redesocias img {
-    width: 15px;
-    margin-right: 0.5rem;
-}
-
-.login__container hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: ridge;
-    border-width: 1px;
-    width: 17rem;
-}
-
-.login__container_span {
-  font-size: 0.75rem;
-  margin-bottom: 1rem;
-  padding-right: 4rem;
-  color: #888;
-}
-
-.inputform {
-    width: 16.5rem;
-    height: 10px;
-    padding: 0.75rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    font-size: 0.75rem;
-}
-
-.inputform_span {
-    font-size: 0.75rem;
-    color: #E45201;
-    padding-left: 11rem;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-    background: none;
-    border: none;
-}
-
-.inputform_span:hover {
-    text-decoration: underline;
-}
-
-.btn_submit {
-    display: flex;
-    flex-direction: column;
-}
-
-.btn_submit {
-  width: 18rem;
-  max-width: 20rem;
-  height: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid;
-  border-radius: 10px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  cursor: pointer;
-  background-color: #E45201;
   color: #fff;
-  transition: background-color 0.3s;
 }
 
-.btn_submit_white {
-    background: #ffff;
-    color: #E45201;
+.aside img {
+  width: 1rem;
+  margin-right: 0.5rem;
 }
 
-.btn_submit:hover {
-  border-color: ;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.content {
+  padding: 2rem;
+  width: 100%;
+}
+
+.content h1 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.content hr {
+  border-style: ridge;
+  width: 100%;
+}
+
+.content_input {
+  width: 18rem;
+  height: 2rem;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.cardCoin {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 6rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.cardCoin p {
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+.cardCoin ul {
+    margin: 0;
+    padding: 0;
+}
+
+.cardCoin img {
+  width: 2rem;
+}
+
+.cardCoin li {
+  list-style: none;
+}
+
+.cardCoin:hover {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
 }

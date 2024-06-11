@@ -1,6 +1,6 @@
 import Background from "./Background";
 
-import "../home.css"
+import "../main.css"
 export default function FormLayout({ children, title, subtitle }) {
   return (
     <div className="container">
