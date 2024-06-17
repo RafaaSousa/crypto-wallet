@@ -42,6 +42,11 @@
   color: #fff;
 }
 
+.aside li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .aside img {
   width: 1rem;
   margin-right: 0.5rem;
@@ -75,6 +80,7 @@
   border: 1px solid #ddd;
   border-radius: 15px;
   padding: 1rem;
+  margin-bottom: 1rem;
   width: 6rem;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   cursor: pointer;
